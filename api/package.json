@@ -1,0 +1,9 @@
+{
+  "name": "PwC_fe_challenge",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "^4.16.3"
+  }
+}

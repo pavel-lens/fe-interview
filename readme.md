@@ -58,8 +58,7 @@ The repository contains a simple API for receiving and updating the avatars.
 * Think of it as a component that will end up in a large, scalable app. Consider this when writing HTML and CSS as well.
 * You're free to use as many third party JS libraries that you see fit
 * You're NOT allowed to use any third party CSS libraries
-* You're free to use any build tools that you like (including CSS pre/post-processors). Do not focus on the tooling though. Choose tools that get you going quickly.
-* Only use the image assets given in this repository and do not modify the files in any way
+* You're free to use any build tools that you like (including CSS pre/post-processors).
 * Use proper semantics when writing HTML
 
 ### Optional extras
@@ -94,9 +93,9 @@ Returns the updated Array of Objects with all available avatars.
 ## Evaluation criteria (in order of importance)
 
 * Code organization
-* Code readability (including comments)
+* Code style/readability (including comments)
 * Completeness
-* Test coverage
+* Optional extras
 
 ## Time
 

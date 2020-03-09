@@ -47,7 +47,7 @@ The user clicks on the avatar to open a popover which allows the user to choose 
 ## Instructions:
 
 Create a reusable component using the framework of your choice (Vue, React, Angular). 
-The component should have only one property: the list of available avatars. 
+The component should have only two properties: the list of available avatars (avatars) and accept a callback on select (onSelect). 
 This list contains the avatar image (`src`), the avatar `label`, a unique avatar `id` and a boolean for the `selected` state. 
 The number of avatars can vary (up to 12). 
 
@@ -66,7 +66,7 @@ The repository contains a simple API for receiving and updating the avatars.
 * A suite of unit tests written for this component using your favourite testing toolchain
 * Keyboard accessible component
 * IE11 support
-* Any other improvment you can think of
+* Any other improvement you can think of
 
 ## API documentation
 
@@ -87,6 +87,7 @@ Returns an Array of Objects with all available avatars.
 Type: POST  
 Path: `/avatars`  
 Example request body: `{"avatarId": 3}`
+Required header: `Content-Type: application/json`
 
 Returns the updated Array of Objects with all available avatars.
 
